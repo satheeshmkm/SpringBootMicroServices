@@ -17,7 +17,7 @@ public class ExampleBean {
 		List<String> nonOpArgs = appArgs.getNonOptionArgs();
 		nonOpArgs.forEach(arg ->System.out.println(arg));
 		
-		System.out.println(" Otional arguments");
+		System.out.println(" Optional arguments");
 		System.out.println(" -------------------");
 		
 		Set<String> opArgs =appArgs.getOptionNames();
