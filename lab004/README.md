@@ -28,4 +28,4 @@ mysql -u root  -p
 - show databases;
 - create database test;
 - use test;
- CREATE TABLE emp    (id INT(10), NAME VARCHAR(50), salay INT(10), department  INT(10), PRIMARY KEY (id )); 
+- CREATE TABLE emp    (id INT(10), NAME VARCHAR(50), salay INT(10), department  INT(10), PRIMARY KEY (id )); 
