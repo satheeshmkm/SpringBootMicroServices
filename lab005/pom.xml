@@ -12,16 +12,19 @@
 	<artifactId>lab005</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>lab005</name>
-	<description>Spring Boot JDBC</description>
+	<description>Spring Boot MVC</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
