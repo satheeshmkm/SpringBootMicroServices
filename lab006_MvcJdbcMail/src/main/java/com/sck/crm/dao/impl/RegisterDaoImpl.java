@@ -2,10 +2,12 @@ package com.sck.crm.dao.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.sck.crm.dao.IRegisterDao;
 import com.sck.crm.model.CustomerBean;
 
+@Repository
 public class RegisterDaoImpl implements IRegisterDao {
 	@Autowired
 	JdbcTemplate jdbcTemplate;

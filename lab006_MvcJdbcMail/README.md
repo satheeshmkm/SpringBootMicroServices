@@ -50,7 +50,7 @@ Date:20201209
 ### Annotations used
 * @Controller
 * @GetMapping
-       @GetMapping("/hello")
+       @GetMapping("/index")
 
 ### Classes used
 * ModelAndView
@@ -61,5 +61,15 @@ Date:20201209
 * spring.mvc.view.prefix
 * spring.mvc.view.suffix
 
+### DB setup
+root user with password as Mukkam83ck
+mysql -u root  -p
+- show databases;
+- create database test;
+- use test;
+- CREATE TABLE customer_tab ( email VARCHAR(50), firstName VARCHAR(30), lastName VARCHAR(30), password VARCHAR(30), gender VARCHAR(10), age INT(10), contactNumber VARCHAR(15), dateOfBirth DATETIME, country VARCHAR(30) PRIMARY KEY (email)); 
+- SHOW TABLES;
+- DESC customer_tab;
+
 ### Running the application
-http://localhost:2020/helloApp/hello
+http://localhost:2121/crm/index

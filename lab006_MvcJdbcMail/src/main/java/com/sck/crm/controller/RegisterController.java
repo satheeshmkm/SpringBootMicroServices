@@ -27,7 +27,7 @@ public class RegisterController {
 	@Autowired
 	IRegisterDao registerDao;
 
-	// http://localhost:2121/CRM/index
+	// http://localhost:2121/crm/index
 	@GetMapping("/index")
 	public String getIndexPage() {
 		return "index";

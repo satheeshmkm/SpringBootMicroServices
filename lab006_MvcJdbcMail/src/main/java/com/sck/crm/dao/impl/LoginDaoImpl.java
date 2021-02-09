@@ -2,9 +2,11 @@ package com.sck.crm.dao.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
 
 import com.sck.crm.dao.ILoginDao;
 
+@Repository
 public class LoginDaoImpl implements ILoginDao {
 
 	@Autowired

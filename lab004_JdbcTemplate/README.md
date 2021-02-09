@@ -5,15 +5,15 @@
 * MySQL Driver
 * JDBC API
 
-<dependency>
-	<groupId>org.springframework.boot</groupId>
-	<artifactId>spring-boot-starter-jdbc</artifactId>
-</dependency>
-<dependency>
-	<groupId>mysql</groupId>
-	<artifactId>mysql-connector-java</artifactId>
-	<scope>runtime</scope>
-</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<scope>runtime</scope>
+		</dependency>
 
 ### Annotations used
 * @Autowired
@@ -23,7 +23,7 @@
 * JdbcTemplate
 
 
-root user with password as root
+root user with password as Mukkam83ck
 mysql -u root  -p
 - show databases;
 - create database test;
